@@ -40,6 +40,12 @@ fn main() {
 
     times(add_n(source, 4), add_n(multiplication_factor, 6));
     println!("Source + 4: {} multiplied by 9 = {}", 9, *source);
+
+    // Exercise 10
+    println!("{}", times(times(times(&mut 5, &mut 2), &mut 3), &mut 3));
+
+    // Exercise 11
+    println!("The vector modulo is: {}", vector_modulo((3.0, 4.0)));
 }
 
 fn is_even(number: &mut i8) -> bool {
@@ -62,4 +68,8 @@ fn add_n(source: &mut i32, n: i32) -> &mut i32 {
 fn times<'a>(source: &'a mut i32, times: &'a mut i32) -> &'a mut i32 {
     *source *= *times;
     source
+}
+
+fn vector_modulo(vector_coords: (f64, f64)) -> f64 {
+    (vector_coords.0.powf(2.0) + vector_coords.1.powf(2.0)).sqrt()
 }
