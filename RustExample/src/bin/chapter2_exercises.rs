@@ -74,6 +74,8 @@ fn main() {
         speed,
         calculate_number_of_cars(hours, speed, true)
     );
+
+    // Exercise 4
 }
 
 fn calculate_number_of_cars(time_hours: i32, speed: i32, per_minute: bool) -> i32 {
