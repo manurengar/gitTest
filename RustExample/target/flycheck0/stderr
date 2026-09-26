@@ -1,12 +1,102 @@
-   0.071519940s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint: stale: changed "/home/manurengar/Documents/gitTest/RustExample/src/bin/chapter2_exercises.rs"
-   0.071535672s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint:           (vs) "/home/manurengar/Documents/gitTest/RustExample/target/debug/.fingerprint/RustExample-8148af0d13dc9743/dep-bin-chapter2_exercises"
-   0.071547968s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1790277772, nanos: 925137710 } < FileTime { seconds: 1790354406, nanos: 343569309 }
-   0.072158541s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint: fingerprint dirty for RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample)/Check { test: false }/TargetInner { name: "chapter2_exercises", doc: true, ..: with_path("/home/manurengar/Documents/gitTest/RustExample/src/bin/chapter2_exercises.rs", Edition2024) }
-   0.072340086s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/manurengar/Documents/gitTest/RustExample/target/debug/.fingerprint/RustExample-8148af0d13dc9743/dep-bin-chapter2_exercises", reference_mtime: FileTime { seconds: 1790277772, nanos: 925137710 }, stale: "/home/manurengar/Documents/gitTest/RustExample/src/bin/chapter2_exercises.rs", stale_mtime: FileTime { seconds: 1790354406, nanos: 343569309 } }))
-   0.073211090s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint: stale: changed "/home/manurengar/Documents/gitTest/RustExample/src/bin/chapter2_exercises.rs"
-   0.073220579s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint:           (vs) "/home/manurengar/Documents/gitTest/RustExample/target/debug/.fingerprint/RustExample-3330132886982b05/dep-test-bin-chapter2_exercises"
-   0.073231536s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1790277772, nanos: 927137714 } < FileTime { seconds: 1790354406, nanos: 343569309 }
-   0.073808743s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint: fingerprint dirty for RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample)/Check { test: true }/TargetInner { name: "chapter2_exercises", doc: true, ..: with_path("/home/manurengar/Documents/gitTest/RustExample/src/bin/chapter2_exercises.rs", Edition2024) }
-   0.073823417s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/manurengar/Documents/gitTest/RustExample/target/debug/.fingerprint/RustExample-3330132886982b05/dep-test-bin-chapter2_exercises", reference_mtime: FileTime { seconds: 1790277772, nanos: 927137714 }, stale: "/home/manurengar/Documents/gitTest/RustExample/src/bin/chapter2_exercises.rs", stale_mtime: FileTime { seconds: 1790354406, nanos: 343569309 } }))
+   0.026692804s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint: stale: changed "/home/manurengar/Documents/gitTest/RustExample/src/bin/chapter2_exercises.rs"
+   0.026706624s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint:           (vs) "/home/manurengar/Documents/gitTest/RustExample/target/debug/.fingerprint/RustExample-3bdd18d20d4b743d/dep-bin-chapter2_exercises"
+   0.026711714s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1790414651, nanos: 610500700 } < FileTime { seconds: 1790414665, nanos: 750614780 }
+   0.026773284s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint: fingerprint dirty for RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample)/Check { test: false }/TargetInner { name: "chapter2_exercises", doc: true, ..: with_path("/home/manurengar/Documents/gitTest/RustExample/src/bin/chapter2_exercises.rs", Edition2024) }
+   0.026798512s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/manurengar/Documents/gitTest/RustExample/target/debug/.fingerprint/RustExample-3bdd18d20d4b743d/dep-bin-chapter2_exercises", reference_mtime: FileTime { seconds: 1790414651, nanos: 610500700 }, stale: "/home/manurengar/Documents/gitTest/RustExample/src/bin/chapter2_exercises.rs", stale_mtime: FileTime { seconds: 1790414665, nanos: 750614780 } }))
+   0.027097079s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint: stale: changed "/home/manurengar/Documents/gitTest/RustExample/src/bin/chapter2_exercises.rs"
+   0.027104174s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint:           (vs) "/home/manurengar/Documents/gitTest/RustExample/target/debug/.fingerprint/RustExample-2436f79cb6d6e614/dep-test-bin-chapter2_exercises"
+   0.027108569s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1790414651, nanos: 610500700 } < FileTime { seconds: 1790414665, nanos: 750614780 }
+   0.027144008s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint: fingerprint dirty for RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample)/Check { test: true }/TargetInner { name: "chapter2_exercises", doc: true, ..: with_path("/home/manurengar/Documents/gitTest/RustExample/src/bin/chapter2_exercises.rs", Edition2024) }
+   0.027153483s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="chapter2_exercises"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/manurengar/Documents/gitTest/RustExample/target/debug/.fingerprint/RustExample-2436f79cb6d6e614/dep-test-bin-chapter2_exercises", reference_mtime: FileTime { seconds: 1790414651, nanos: 610500700 }, stale: "/home/manurengar/Documents/gitTest/RustExample/src/bin/chapter2_exercises.rs", stale_mtime: FileTime { seconds: 1790414665, nanos: 750614780 } }))
+   0.027548031s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="loop"}: cargo::core::compiler::fingerprint: fingerprint error for RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample)/Check { test: false }/TargetInner { name: "loop", doc: true, ..: with_path("/home/manurengar/Documents/gitTest/RustExample/src/bin/loop.rs", Edition2024) }
+   0.027560990s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="loop"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/manurengar/Documents/gitTest/RustExample/target/debug/.fingerprint/RustExample-5cae7276d3437d5e/bin-loop`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_with_exec
+   7: cargo::ops::cargo_compile::compile
+   8: cargo::commands::check::exec
+   9: <cargo::cli::Exec>::exec
+  10: cargo::main
+  11: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  12: std::rt::lang_start::<()>::{closure#0}
+  13: <&dyn core::ops::function::Fn<(), Output = i32> + core::panic::unwind_safe::RefUnwindSafe + core::marker::Sync as core::ops::function::FnOnce<()>>::call_once
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/ops/function.rs:287:21
+  14: std::panicking::catch_unwind::do_call::<&dyn core::ops::function::Fn<(), Output = i32> + core::panic::unwind_safe::RefUnwindSafe + core::marker::Sync, i32>
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/std/src/panicking.rs:576:43
+  15: std::panicking::catch_unwind::<i32, &dyn core::ops::function::Fn<(), Output = i32> + core::panic::unwind_safe::RefUnwindSafe + core::marker::Sync>
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/std/src/panicking.rs:544:19
+  16: std::panic::catch_unwind::<&dyn core::ops::function::Fn<(), Output = i32> + core::panic::unwind_safe::RefUnwindSafe + core::marker::Sync, i32>
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/std/src/panic.rs:359:14
+  17: std::rt::lang_start_internal::{closure#0}
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/std/src/rt.rs:175:24
+  18: std::panicking::catch_unwind::do_call::<std::rt::lang_start_internal::{closure#0}, isize>
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/std/src/panicking.rs:576:43
+  19: std::panicking::catch_unwind::<isize, std::rt::lang_start_internal::{closure#0}>
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/std/src/panicking.rs:544:19
+  20: std::panic::catch_unwind::<std::rt::lang_start_internal::{closure#0}, isize>
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/std/src/panic.rs:359:14
+  21: std::rt::lang_start_internal
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/std/src/rt.rs:171:5
+  22: main
+  23: __libc_start_call_main
+             at ./csu/../sysdeps/nptl/libc_start_call_main.h:59:16
+  24: __libc_start_main_impl
+             at ./csu/../csu/libc-start.c:360:3
+  25: <unknown>
+   0.139931332s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="loop"}: cargo::core::compiler::fingerprint: fingerprint error for RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample)/Check { test: true }/TargetInner { name: "loop", doc: true, ..: with_path("/home/manurengar/Documents/gitTest/RustExample/src/bin/loop.rs", Edition2024) }
+   0.139966048s  INFO prepare_target{force=false package_id=RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample) target="loop"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/manurengar/Documents/gitTest/RustExample/target/debug/.fingerprint/RustExample-b157fafb70bee56b/test-bin-loop`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: cargo_util::paths::read_bytes
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_with_exec
+   7: cargo::ops::cargo_compile::compile
+   8: cargo::commands::check::exec
+   9: <cargo::cli::Exec>::exec
+  10: cargo::main
+  11: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  12: std::rt::lang_start::<()>::{closure#0}
+  13: <&dyn core::ops::function::Fn<(), Output = i32> + core::panic::unwind_safe::RefUnwindSafe + core::marker::Sync as core::ops::function::FnOnce<()>>::call_once
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/core/src/ops/function.rs:287:21
+  14: std::panicking::catch_unwind::do_call::<&dyn core::ops::function::Fn<(), Output = i32> + core::panic::unwind_safe::RefUnwindSafe + core::marker::Sync, i32>
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/std/src/panicking.rs:576:43
+  15: std::panicking::catch_unwind::<i32, &dyn core::ops::function::Fn<(), Output = i32> + core::panic::unwind_safe::RefUnwindSafe + core::marker::Sync>
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/std/src/panicking.rs:544:19
+  16: std::panic::catch_unwind::<&dyn core::ops::function::Fn<(), Output = i32> + core::panic::unwind_safe::RefUnwindSafe + core::marker::Sync, i32>
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/std/src/panic.rs:359:14
+  17: std::rt::lang_start_internal::{closure#0}
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/std/src/rt.rs:175:24
+  18: std::panicking::catch_unwind::do_call::<std::rt::lang_start_internal::{closure#0}, isize>
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/std/src/panicking.rs:576:43
+  19: std::panicking::catch_unwind::<isize, std::rt::lang_start_internal::{closure#0}>
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/std/src/panicking.rs:544:19
+  20: std::panic::catch_unwind::<std::rt::lang_start_internal::{closure#0}, isize>
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/std/src/panic.rs:359:14
+  21: std::rt::lang_start_internal
+             at /rustc/48a229ceaefd4985c50990b14116b6d856af0985/library/std/src/rt.rs:171:5
+  22: main
+  23: __libc_start_call_main
+             at ./csu/../sysdeps/nptl/libc_start_call_main.h:59:16
+  24: __libc_start_main_impl
+             at ./csu/../csu/libc-start.c:360:3
+  25: <unknown>
     Checking RustExample v0.1.0 (/home/manurengar/Documents/gitTest/RustExample)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.59s
+error: could not compile `RustExample` (bin "loop") due to 1 previous error; 2 warnings emitted
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `RustExample` (bin "loop" test) due to 1 previous error; 2 warnings emitted
